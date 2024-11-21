@@ -1,9 +1,13 @@
-const lampadina = document.querySelector('spenta')
+const lampadinaOff = document.querySelector('.spenta')
+const lampadinaOn = document.querySelector('.accesa')
 
+const stanza = document.querySelector('.lampadario')
 const bottone = document.getElementById('interruttore')
 
 
 
 bottone.addEventListener ('click', () =>{
-  lampadina.classList.add('d-hide');
+  lampadinaOff.classList.toggle('d-hide');
+  lampadinaOn.classList.toggle('d-hide'); 
+  bottone.innerHTML = 'Spegni'
 })
