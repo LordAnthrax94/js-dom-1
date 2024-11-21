@@ -2,6 +2,12 @@
   display: none;
 }
 
+.d-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .d-block{
 display: block;
 }
@@ -15,5 +21,16 @@ display: block;
   transform: scaleX(-1);
 }
 
+.lampadario{
+  max-width: 100%;
+  align-items: center;
+}
+
+.container{
+  width: 1100px;
+  margin: 0 auto; 
+  border: 1px solid black; 
+  border-radius: 10px;
+}
 
 
