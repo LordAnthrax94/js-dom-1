@@ -11,4 +11,9 @@ display: block;
 }
 
 
+.accesa{
+  transform: scaleX(-1);
+}
+
+
 

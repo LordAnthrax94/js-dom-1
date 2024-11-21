@@ -9,5 +9,5 @@ const bottone = document.getElementById('interruttore')
 bottone.addEventListener ('click', () =>{
   lampadinaOff.classList.toggle('d-hide');
   lampadinaOn.classList.toggle('d-hide'); 
-  bottone.innerHTML = 'Spegni'
+  bottone.innerHTML = (lampadinaOff.classList.contains('d-hide')) ? 'Spegni' : 'Accendi'
 })
